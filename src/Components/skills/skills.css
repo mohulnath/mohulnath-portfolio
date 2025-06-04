@@ -1,0 +1,371 @@
+/* /////////////////////// skills-page //////////////////// */
+
+.skills-page {
+    width: 100%;
+    min-height: 90vh;
+    /* background-color: beige; */
+}
+
+.skills-page .my-skills {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Technical-Skills {
+    width: 50%;
+    padding: 0px 30px 0px 30px;
+}
+
+.soft-skills {
+    width: 40%;
+    padding: 0px 30px 0px 30px;
+}
+
+.Technical-Skills h2,
+.soft-skills h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Technical-Skills .number-1 {
+    width: 100%;
+    height: 60px;
+    background-color: whitesmoke;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 25px;
+    /* border-radius: 35px; */
+}
+
+/* common style—all bars start at 0 % */
+.number-1 .line {
+    width: 0%;
+    height: 10px;
+    background: var(--main-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 1.5s ease;   /* smooth fill */
+  }
+  
+
+@keyframes fill-line-1 {
+    to { width: 95%; }
+}
+@keyframes fill-line-2 {
+    to { width: 90%; }
+}
+@keyframes fill-line-3 {
+    to { width: 80%; }
+}
+@keyframes fill-line-4 {
+    to { width: 75%; }
+}
+@keyframes fill-line-5 {
+    to { width: 80%; }
+}
+@keyframes fill-line-6 {
+    to { width: 70%; }
+}
+@keyframes fill-line-7 {
+    to { width: 70%; }
+}
+@keyframes fill-line-8 {
+    to { width: 70%; }
+}
+
+
+
+.lef {
+    display: flex;
+    gap: 10px;
+}
+
+/* Icon colors */
+
+.icon1 {
+    color: #E34F26;
+}
+
+.icon2 {
+    color: #1572B6;
+}
+
+.icon3 {
+    color: #7952B3;
+}
+
+.icon4 {
+    color: #ffe100;
+}
+
+.icon5 {
+    color: #61DAFB;
+}
+
+.icon6 {
+    color:#339933;
+}
+
+
+.icon7 {
+    color: #47A248;
+}
+
+.icon8 {
+    color: #000000;
+}
+
+.number-1:nth-child(8) .icon {
+    color: #14a8b9;
+}
+
+.number-1 .icon {
+    font-size: 1.3rem;
+}
+
+/* HTML – 95 % */
+.number-1.aos-animate .line-1 { width: 95%; }
+
+/* CSS – 90 %  */
+.number-1.aos-animate .line-2 { width: 90%; }
+
+/* Bootstrap – 80 % */
+.number-1.aos-animate .line-3 { width: 80%; }
+
+/* JavaScript – 75 % */
+.number-1.aos-animate .line-4 { width: 75%; }
+
+/* React – 80 % */
+.number-1.aos-animate .line-5 { width: 80%; }
+
+/* Node.js – 70 % */
+.number-1.aos-animate .line-6 { width: 70%; }
+
+/* MongoDB – 70 % */
+.number-1.aos-animate .line-7 { width: 70%; }
+
+/* Express.js – 70 % */
+.number-1.aos-animate .line-8 { width: 70%; }
+
+
+.radial-bars {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.radial-bars .radial-bar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.radial-bars .radial-bar svg {
+    /* position: absolute;
+    top: 50;
+    left: 50; */
+    transform: translate(-50%, -50%) rotate (-90deg);
+    width: 200px;
+    height: 170px;
+}
+
+.radial-bars .radial-bar .progress-bar {
+    stroke-width: 10;
+    stroke: black;
+    fill: transparent;
+    stroke-dashoffset: -1;
+    stroke-dasharray: 502;
+    stroke-linecap: round;
+}
+
+
+.path {
+    stroke-width: 10;
+    stroke: #4385ff;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-linecap: round;
+}
+
+.oone { stroke-dashoffset: 40%; }
+.ttwo { stroke-dashoffset: 60%; }
+.tthree { stroke-dashoffset: 100%; }
+
+.radial-bar .path {
+    stroke-width: 10;
+    stroke: #4385ff;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-linecap: round;
+    stroke-dashoffset: 502; 
+    transition: stroke-dashoffset 1.5s ease;
+}
+
+.radial-bar.aos-animate .oone {
+    stroke-dashoffset: 0; 
+}
+
+.radial-bar.aos-animate .ttwo {
+    stroke-dashoffset: 301; 
+}
+
+.radial-bar.aos-animate .tthree {
+    stroke-dashoffset: 502; 
+}
+
+.radial-bar .path {
+    stroke-dashoffset: 502;
+    transition: stroke-dashoffset 1.5s ease;
+}
+.radial-bar.aos-animate .path {
+    stroke-dashoffset: var(--offset);
+}
+
+
+
+.radial-bar .precentage {
+    position: absolute;
+    bottom: 37%;
+    right: 42%;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 600px) and (max-width: 990px) {
+    .radial-bar .precentage {
+        position: absolute;
+        bottom: 35%;
+        right: 37%;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .my-skills {
+        gap: 20px;
+    }
+
+    .Technical-Skills {
+        width: 55%;
+        padding: 20px;
+    }
+
+    .soft-skills {
+        width: 40%;
+        padding: 20px;
+    }
+
+    .Technical-Skills .number-1 {
+        height: 52px;
+        font-size: 14px;
+    }
+
+    .number-1 .line{
+        height: 6px;
+    }
+
+    .number-1 .icon{
+        font-size: 1.2rem;
+    }
+
+    .radial-bars .radial-bar svg{
+        height: 140px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px){
+        .my-skills{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center !important;
+        }
+
+        .my-skills {
+            gap: 0px;
+        }
+    
+        .Technical-Skills {
+            width: 90%;
+            padding: 10px;
+        }
+    
+        .soft-skills {
+            width: 90%;
+            padding: 20px;
+        }
+    
+        .Technical-Skills .number-1 {
+            height: 52px;
+            font-size: 14px;
+        }
+    
+        .number-1 .line{
+            height: 6px;
+        }
+    
+        .number-1 .icon{
+            font-size: 1.2rem;
+        }
+    
+        .radial-bars .radial-bar svg{
+            height: 140px;
+        }
+    
+        .text{
+            font-size: 16px;
+        }
+
+        .radial-bars{
+            flex-direction: row;
+        }
+}
+
+@media screen and (max-width: 425px){
+    .radial-bars{
+        flex-direction: column;
+    }
+
+    .Technical-Skills,
+    .soft-skills{
+        padding: 0;
+    }
+
+    .soft-skills{
+        margin-top: 20px;
+    }
+
+    .Technical-Skills h2,
+    .soft-skills h2{
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .radial-bar .precentage {
+        position: absolute;
+        bottom: 33%;
+        right: 38%;
+    }
+}
+
+.number-1 .line { width: 0%; transition: width 1.5s ease; }
+.number-1.aos-animate .line { width: var(--w); }
