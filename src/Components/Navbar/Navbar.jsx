@@ -15,7 +15,7 @@ export default function Navbar() {
         <>
             <nav>
                 <div>
-                    <h3>Mohulnath</h3>
+                    <h3>Mohulnath <span className='log'> ♦︎</span> </h3>
                 </div>
 
                 <input ref={checkboxRef} className='inputtt' type="checkbox" id="click" />
@@ -24,10 +24,10 @@ export default function Navbar() {
                 </label>
 
                 <div className="Basnav">
-                    <a href="#home" onClick={handleNavClick}>Home</a>
-                    <a href="#about" onClick={handleNavClick}>About</a>
-                    <a href="#skill" onClick={handleNavClick}>Skills</a>
-                    <a href="#project" onClick={handleNavClick}>Projects</a>
+                    <a href="#home" onClick={handleNavClick}>Home</a>|
+                    <a href="#about" onClick={handleNavClick}>About</a>|
+                    <a href="#skill" onClick={handleNavClick}>Skills</a>|
+                    <a href="#project" onClick={handleNavClick}>Projects</a>|
                     <a href="#contact" onClick={handleNavClick}>Contact</a>
                 </div>
             </nav>

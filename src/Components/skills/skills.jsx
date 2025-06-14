@@ -27,7 +27,7 @@ export default function Skills() {
     return (
         <>
             <div className="skills-page">
-                <h1 className='title'> <strong> My Skills </strong> </h1>
+                <h1 className='title'>  My Skills  </h1>
 
                 <div className="my-skills">
                     <div className="Technical-Skills">
@@ -121,7 +121,7 @@ export default function Skills() {
                         <div className="radial-bars">
 
                             <div data-aos="fade-up" className="radial-bar">
-                                <h3 className="text"> <strong> Responsive Design </strong></h3>
+                                <h3 className="text">  Responsive Design </h3>
                                 <div className="precentage"> <strong> 95% </strong></div>
                                 <svg x="0px" y="0px" viewBox="0 0 200 200">
                                     <circle className='progress-bar' cx="100" cy="100" r="80"></circle>
@@ -135,7 +135,7 @@ export default function Skills() {
                             </div>
 
                             <div data-aos="fade-up" className="radial-bar">
-                                <h3 className="text"><strong> Problem Solving </strong> </h3>
+                                <h3 className="text"> Problem Solving  </h3>
                                 <div className="precentage"> <strong> 80% </strong></div>
                                 <svg x="0px" y="0px" viewBox="0 0 200 200">
                                     <circle className='progress-bar' cx="100" cy="100" r="80"></circle>
@@ -149,7 +149,7 @@ export default function Skills() {
                             </div>
 
                             <div data-aos="fade-up" className="radial-bar">
-                                <h3 className="text"><strong> Teamwork </strong></h3>
+                                <h3 className="text"> Teamwork </h3>
                                 <div className="precentage"> <strong> 90%</strong> </div>
                                 <svg x="0px" y="0px" viewBox="0 0 200 200">
                                     <circle className='progress-bar' cx="100" cy="100" r="80"></circle>

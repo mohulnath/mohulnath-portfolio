@@ -56,7 +56,7 @@ export default function Contact() {
   return (
     <>
       <div className="contact-box">
-        <h1 className="title"><strong>Contact</strong></h1>
+        <h1 className="title">Contact</h1>
 
         <div className="contact-container">
           <div className="up-content">

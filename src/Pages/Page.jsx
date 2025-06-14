@@ -75,7 +75,7 @@ export default function Page() {
             
 
             <div className="about-page">
-                <div id='about' className="title"> <strong> About Me </strong> </div>
+                <h1 id='about' className="title">  About Me  </h1>
                 <div className="two-contents">
 
                     <div data-aos="fade-right"
@@ -122,7 +122,7 @@ export default function Page() {
 
                         </div>
 
-                        <button> <a href="https://drive.google.com/file/d/17_9DeVZsk28k-6VHP4fvUtCb18EUnF8L/view?usp=sharing"> Download CV </a>  </button>
+                        <button> <a href="https://drive.google.com/file/d/1cZIefZiMvLt8rN5Mz8-HddVsfJodftoQ/view?usp=sharing"> Download CV </a>  </button>
 
                     </div>
                 </div>
@@ -176,7 +176,7 @@ export default function Page() {
             {/* PAGE FOUR --- PROJECTS-PAGE  */}
 
             <div id='project' className="project-page">
-                <h1 className='title'> <strong> My Projects </strong> </h1>
+                <h1 className='title'>  My Projects  </h1>
 
                 <div className="my-project">
 
@@ -335,6 +335,10 @@ export default function Page() {
             <div id='contact'>
             <Contact />
             </div>
+
+            {/* <div className="bottom-fixed">
+                
+            </div> */}
 
         </>
     )
