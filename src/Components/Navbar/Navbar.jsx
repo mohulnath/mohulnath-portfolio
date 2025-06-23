@@ -24,11 +24,11 @@ export default function Navbar() {
                 </label>
 
                 <div className="Basnav">
-                    <a href="#home" onClick={handleNavClick}>Home</a>|
-                    <a href="#about" onClick={handleNavClick}>About</a>|
-                    <a href="#skill" onClick={handleNavClick}>Skills</a>|
-                    <a href="#project" onClick={handleNavClick}>Projects</a>|
-                    <a href="#contact" onClick={handleNavClick}>Contact</a>
+                    <a href="#home" onClick={handleNavClick}>Home</a> <span>|</span>
+                    <a href="#about" onClick={handleNavClick}>About</a>  <span>|</span>
+                    <a href="#skill" onClick={handleNavClick}>Skills</a>  <span>|</span>
+                    <a href="#project" onClick={handleNavClick}>Projects</a>  <span>|</span>
+                    <a href="#contact" onClick={handleNavClick}>Contact</a>  <span>|</span>
                 </div>
             </nav>
         </>

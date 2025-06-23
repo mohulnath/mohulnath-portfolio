@@ -366,6 +366,15 @@
         bottom: 33%;
         right: 38%;
     }
+
+    .Technical-Skills .number-1 {
+        height: 45px;
+        font-size: 13px;
+    }
+
+    .number-1 .line {
+        height: 4px;
+    }
 }
 
 .number-1 .line { width: 0%; transition: width 1.5s ease; }

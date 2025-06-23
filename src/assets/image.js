@@ -1,5 +1,6 @@
-import mohul from './myimage/mohul.jpeg';
+
 import mohulpng from './myimage/mohulpng.PNG';
+import aboutimage from './myimage/aboutimage.jpg'
 
 import Html from './Skills/html-5.png'
 import Css from './Skills/css.png'
@@ -25,8 +26,9 @@ const Images = {
    Flexwood,
    Crazycap,
    
-   mohul,
+   aboutimage,
    mohulpng,
+
    Html,
    Css,
    Bootstarp, 

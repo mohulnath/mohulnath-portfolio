@@ -1,0 +1,36 @@
+
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 60px;
+    font-size: 22px;
+    background-color: #4385ff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .scroll-to-top-btn:hover {
+    transform: translateY(-5px);
+  }
+  
+  @media screen and (max-width: 800px){
+
+.scroll-to-top-btn {
+    bottom: 25px;
+    right: 15px;
+    width: 35px;
+    height: 55px;
+    font-size: 20px;
+  }
+  }
+  

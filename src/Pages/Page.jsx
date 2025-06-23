@@ -1,5 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 
+import ScrollToTopButton from '../Components/ScrollToTopButton/ScrollToTopButton'
+
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -85,7 +88,7 @@ export default function Page() {
                       data-aos-offset="150"
 
                     className="left-side-content">
-                        <img src={Images.mohul} alt="" />
+                        <img src={Images.aboutimage} alt="" />
                     </div>
 
                     <div data-aos="fade-up"
@@ -336,9 +339,7 @@ export default function Page() {
             <Contact />
             </div>
 
-            {/* <div className="bottom-fixed">
-                
-            </div> */}
+            <ScrollToTopButton/>
 
         </>
     )

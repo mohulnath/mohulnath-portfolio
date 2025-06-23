@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 }
 
+button{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
 
 body{
     /* background-color: rgba(229, 248, 255, 0.625);  */
@@ -21,7 +25,7 @@ body{
     font-size: 35px;
     text-align: center;
     font-family: "Unbounded", sans-serif;
-    margin: 40px 0 40px 0;
+    margin: 80px 0 50px 0;
     font-weight: bold;
 }
 /* /////////////////////// HOME PAGE ////////////////////// */
@@ -43,6 +47,7 @@ body{
     background-color: #4c89f8;
     /* border-radius: 40% 60% 65% 35% / 40% 35% 65% 60%; */
     border-radius: 47% 53% 55% 45% / 29% 28% 72% 71%;
+    /* border-radius: 10% / 50%; */
     overflow: hidden;
     animation-name: shakeUpDown;
     animation-duration: 1.5s;
@@ -377,6 +382,7 @@ body{
     font-weight: 600;
     transition: all 0.5s;
     margin-left: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .right-side-content button:hover {
@@ -703,11 +709,9 @@ body{
 
 .project-one{
     width: 350px;
-    /* height: 350px; */
-    background-color: whitesmoke;
-    /* background: linear-gradient(rgb(2, 158, 214), rgb(255, 255, 255)); */
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 24px #00000033;
     transition: all 0.3s !important;
 }
 
@@ -725,6 +729,7 @@ body{
     height: 200px;
     border-radius: 10px;
     padding: 15px;
+    margin-bottom: 10px;
 }
 
 .image-box img{
@@ -732,6 +737,7 @@ body{
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 

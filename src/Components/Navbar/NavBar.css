@@ -9,7 +9,7 @@ nav{
     align-content: center;
     position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 9999;
 }
 
 
@@ -47,6 +47,7 @@ nav{
 nav div h3{
     font-family: "Unbounded", sans-serif;
     font-weight:bold;
+    cursor: pointer;
 }
 
 .Basnav a:hover{
@@ -85,7 +86,7 @@ nav div h3{
         top: 50px;
         right: -110%;
         align-items: flex-start;
-        gap: 50px;
+        gap: 35px;
         padding: 30px;
     }
 
@@ -95,6 +96,10 @@ nav div h3{
 
     .Basnav a {
         color: white;
+    }
+
+    .Basnav span{
+        color: transparent;
     }
 }
 
