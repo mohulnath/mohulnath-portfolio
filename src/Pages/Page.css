@@ -81,10 +81,6 @@ body{
     color: var(--main-color);
 }
 
-.left-content div .shadow__btn:nth-of-type(1) {
-    width: 100px;
-}
-
 .left-content div .shadow__btn {
     margin-top: 20px;
     width: 125px;
@@ -290,6 +286,15 @@ body{
         transform: translateY(20px) translateX(-20px);
     }
 
+    .left-content div .shadow__btn {
+        width: 100px;
+        height: 35px;
+    }
+
+    .left-content div .shadow__btn a {
+        font-size: 13px;
+    }
+
 }
 
 @media screen and (max-width: 370px){
@@ -300,7 +305,7 @@ body{
     }
 
     .left-content h1 {
-        font-size: 32px;
+        font-size: 30px;
     }    
 }
 
