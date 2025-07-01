@@ -186,7 +186,7 @@ export default function Page() {
                     <div data-aos="zoom-in-up"  data-aos-delay="100" className="project-one">
 
                         <div className='image-box'>
-                            <img src={Images.Helthcare} alt="" />
+                            <img src={Images.Helth} alt="" />
                         </div>
 
                         <div className="card-body">
@@ -211,7 +211,7 @@ export default function Page() {
                     <div data-aos="zoom-in-up"  data-aos-delay="250" className="project-one">
 
                         <div className='image-box'>
-                            <img className='sca' src={Images.Spotifyclone} alt="" />
+                            <img className='sca' src={Images.Song} alt="" />
                         </div>
 
                         <div className="card-body">
@@ -235,7 +235,7 @@ export default function Page() {
                     <div data-aos="zoom-in-up"  data-aos-delay="350" className="project-one">
 
                         <div className='image-box'>
-                            <img src={Images.Flexwood} alt="" />
+                            <img src={Images.Wood} alt="" />
                         </div>
 
                         <div className="card-body">
@@ -259,7 +259,7 @@ export default function Page() {
                     <div data-aos="zoom-in-up"  data-aos-delay="100" className="project-one">
 
                         <div className='image-box'>
-                            <img src={Images.Icekey} alt="" />
+                            <img src={Images.Ice} alt="" />
                         </div>
 
                         <div className="card-body">
@@ -285,7 +285,7 @@ export default function Page() {
                     <div data-aos="zoom-in-up"  data-aos-delay="250" className="project-one">
 
                         <div className='image-box'>
-                            <img src={Images.Crazycap} alt="" />
+                            <img src={Images.Waterbottle} alt="" />
                         </div>
 
                         <div className="card-body">
@@ -310,7 +310,7 @@ export default function Page() {
                     <div data-aos="zoom-in-up"  data-aos-delay="350" className="project-one">
 
                         <div className='image-box'>
-                            <img src={Images.Oraginfruit} alt="" />
+                            <img src={Images.Fruit} alt="" />
                         </div>
 
                         <div className="card-body">

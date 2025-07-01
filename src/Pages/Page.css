@@ -297,6 +297,12 @@ body{
 
 }
 
+@media screen and (max-width: 450px){
+    .left-content h1 {
+        font-size: 35px;
+    }    
+}
+
 @media screen and (max-width: 370px){
 
     .Home-Page{

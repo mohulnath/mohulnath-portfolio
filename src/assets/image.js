@@ -11,20 +11,22 @@ import Node from './Skills/nodejs.png'
 import Mongodb from './Skills/mongodb.png'
 import Expressjs from './Skills/express-js.png'
 
-import Helthcare from './project/helthcare.jpg'
-import Icekey from './project/icekey.jpeg'
-import Oraginfruit from './project/oraginfruit.jpeg'
-import Spotifyclone from './project/spotifyclone.jpeg'
-import Flexwood from './project/flexwood.jpeg'
-import Crazycap from './project/Crazycap.jpeg'
+import Wood from './project/wood.png'
+import Fruit from './project/fruit.png'
+import Song from './project/song.png'
+import Helth from './project/helth.png'
+import Ice from './project/ice.png'
+import Waterbottle from './project/waterbottle.png'
+
 
 
 const Images = {
-   Icekey,
-   Oraginfruit,
-   Spotifyclone ,
-   Flexwood,
-   Crazycap,
+   Wood,
+   Fruit,
+   Song,
+   Helth,
+   Ice,
+   Waterbottle,
    
    aboutimage,
    mohulpng,
@@ -37,7 +39,6 @@ const Images = {
    Node, 
    Mongodb, 
    Expressjs, 
-   Helthcare,
   };
   
   export default Images;
